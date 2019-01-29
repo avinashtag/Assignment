@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		B95714E021FD77D8005D8802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95714DF21FD77D8005D8802 /* AppDelegate.swift */; };
-		B95714E221FD77D8005D8802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95714E121FD77D8005D8802 /* ViewController.swift */; };
 		B95714E521FD77D8005D8802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95714E321FD77D8005D8802 /* Main.storyboard */; };
 		B95714E721FD77DD005D8802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95714E621FD77DD005D8802 /* Assets.xcassets */; };
 		B95714EA21FD77DD005D8802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95714E821FD77DD005D8802 /* LaunchScreen.storyboard */; };
+		B95714FB21FE9DD1005D8802 /* MVApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95714F421FE9DD1005D8802 /* MVApiClient.swift */; };
+		B95714FC21FE9DD1005D8802 /* TagExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95714F521FE9DD1005D8802 /* TagExtension.swift */; };
+		B95714FD21FE9DD1005D8802 /* ATCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95714F621FE9DD1005D8802 /* ATCache.swift */; };
+		B95714FE21FE9DD1005D8802 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95714F721FE9DD1005D8802 /* APIClient.swift */; };
+		B95714FF21FE9DD1005D8802 /* TagOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95714F821FE9DD1005D8802 /* TagOperation.swift */; };
+		B957150021FE9DD1005D8802 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95714F921FE9DD1005D8802 /* Tag.swift */; };
+		B957150121FE9DD1005D8802 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95714FA21FE9DD1005D8802 /* EndPoint.swift */; };
+		B957150821FE9E68005D8802 /* MVWallPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957150221FE9E68005D8802 /* MVWallPresenter.swift */; };
+		B957150921FE9E68005D8802 /* MVWallWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957150321FE9E68005D8802 /* MVWallWorker.swift */; };
+		B957150A21FE9E68005D8802 /* MVWallRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957150421FE9E68005D8802 /* MVWallRouter.swift */; };
+		B957150B21FE9E68005D8802 /* MVWallModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957150521FE9E68005D8802 /* MVWallModels.swift */; };
+		B957150C21FE9E68005D8802 /* MVWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957150621FE9E68005D8802 /* MVWallViewController.swift */; };
+		B957150D21FE9E68005D8802 /* MVWallInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957150721FE9E68005D8802 /* MVWallInteractor.swift */; };
+		B957150F21FEA573005D8802 /* MVWallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957150E21FEA573005D8802 /* MVWallCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B95714DC21FD77D8005D8802 /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95714DF21FD77D8005D8802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B95714E121FD77D8005D8802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B95714E421FD77D8005D8802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B95714E621FD77DD005D8802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B95714E921FD77DD005D8802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B95714EB21FD77DD005D8802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95714F421FE9DD1005D8802 /* MVApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVApiClient.swift; sourceTree = "<group>"; };
+		B95714F521FE9DD1005D8802 /* TagExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagExtension.swift; sourceTree = "<group>"; };
+		B95714F621FE9DD1005D8802 /* ATCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCache.swift; sourceTree = "<group>"; };
+		B95714F721FE9DD1005D8802 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B95714F821FE9DD1005D8802 /* TagOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagOperation.swift; sourceTree = "<group>"; };
+		B95714F921FE9DD1005D8802 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		B95714FA21FE9DD1005D8802 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		B957150221FE9E68005D8802 /* MVWallPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVWallPresenter.swift; sourceTree = "<group>"; };
+		B957150321FE9E68005D8802 /* MVWallWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVWallWorker.swift; sourceTree = "<group>"; };
+		B957150421FE9E68005D8802 /* MVWallRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVWallRouter.swift; sourceTree = "<group>"; };
+		B957150521FE9E68005D8802 /* MVWallModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVWallModels.swift; sourceTree = "<group>"; };
+		B957150621FE9E68005D8802 /* MVWallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVWallViewController.swift; sourceTree = "<group>"; };
+		B957150721FE9E68005D8802 /* MVWallInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVWallInteractor.swift; sourceTree = "<group>"; };
+		B957150E21FEA573005D8802 /* MVWallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVWallCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,9 +61,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B95421902200250A00403A95 /* API Connect */ = {
+			isa = PBXGroup;
+			children = (
+				B95714FA21FE9DD1005D8802 /* EndPoint.swift */,
+				B95714F421FE9DD1005D8802 /* MVApiClient.swift */,
+				B95714F721FE9DD1005D8802 /* APIClient.swift */,
+			);
+			path = "API Connect";
+			sourceTree = "<group>";
+		};
 		B95714D321FD77D8005D8802 = {
 			isa = PBXGroup;
 			children = (
+				B95421902200250A00403A95 /* API Connect */,
+				B95714F321FE9DD1005D8802 /* ATCache */,
 				B95714DE21FD77D8005D8802 /* Assignment */,
 				B95714DD21FD77D8005D8802 /* Products */,
 			);
@@ -55,13 +93,30 @@
 			isa = PBXGroup;
 			children = (
 				B95714DF21FD77D8005D8802 /* AppDelegate.swift */,
-				B95714E121FD77D8005D8802 /* ViewController.swift */,
+				B957150221FE9E68005D8802 /* MVWallPresenter.swift */,
+				B957150321FE9E68005D8802 /* MVWallWorker.swift */,
+				B957150421FE9E68005D8802 /* MVWallRouter.swift */,
+				B957150521FE9E68005D8802 /* MVWallModels.swift */,
+				B957150621FE9E68005D8802 /* MVWallViewController.swift */,
+				B957150721FE9E68005D8802 /* MVWallInteractor.swift */,
+				B957150E21FEA573005D8802 /* MVWallCell.swift */,
 				B95714E321FD77D8005D8802 /* Main.storyboard */,
 				B95714E621FD77DD005D8802 /* Assets.xcassets */,
 				B95714E821FD77DD005D8802 /* LaunchScreen.storyboard */,
 				B95714EB21FD77DD005D8802 /* Info.plist */,
 			);
 			path = Assignment;
+			sourceTree = "<group>";
+		};
+		B95714F321FE9DD1005D8802 /* ATCache */ = {
+			isa = PBXGroup;
+			children = (
+				B95714F521FE9DD1005D8802 /* TagExtension.swift */,
+				B95714F621FE9DD1005D8802 /* ATCache.swift */,
+				B95714F821FE9DD1005D8802 /* TagOperation.swift */,
+				B95714F921FE9DD1005D8802 /* Tag.swift */,
+			);
+			path = ATCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +190,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B95714E221FD77D8005D8802 /* ViewController.swift in Sources */,
+				B957150F21FEA573005D8802 /* MVWallCell.swift in Sources */,
+				B957150821FE9E68005D8802 /* MVWallPresenter.swift in Sources */,
+				B95714FB21FE9DD1005D8802 /* MVApiClient.swift in Sources */,
+				B95714FE21FE9DD1005D8802 /* APIClient.swift in Sources */,
+				B957150121FE9DD1005D8802 /* EndPoint.swift in Sources */,
+				B957150B21FE9E68005D8802 /* MVWallModels.swift in Sources */,
+				B95714FF21FE9DD1005D8802 /* TagOperation.swift in Sources */,
+				B957150C21FE9E68005D8802 /* MVWallViewController.swift in Sources */,
 				B95714E021FD77D8005D8802 /* AppDelegate.swift in Sources */,
+				B95714FC21FE9DD1005D8802 /* TagExtension.swift in Sources */,
+				B957150021FE9DD1005D8802 /* Tag.swift in Sources */,
+				B957150A21FE9E68005D8802 /* MVWallRouter.swift in Sources */,
+				B957150921FE9E68005D8802 /* MVWallWorker.swift in Sources */,
+				B95714FD21FE9DD1005D8802 /* ATCache.swift in Sources */,
+				B957150D21FE9E68005D8802 /* MVWallInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J964484TN;
 				INFOPLIST_FILE = Assignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J964484TN;
 				INFOPLIST_FILE = Assignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
